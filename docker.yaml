@@ -34,7 +34,7 @@ wordpress:
         - mysql
     restart: always
 phpmyadmin:
-	image: corbinu/docker-phpmyadmin
+    image: corbinu/docker-phpmyadmin
     links:
         - mysql
     ports:
